@@ -162,11 +162,24 @@ audio{
 	margin-bottom:20px;
 }
 
+
+/* Page content
+===========================*/
+.page_content p{
+	
+}
+.page_content a{
+	   
+}
+.page_content .gallery {
+	width: 100%;
+	display:none;
+}
 /* Gallery styles
 ===========================*/
 .gallery{
 	padding-top:1%;
-	  line-height: 15px;
+	line-height: 15px;
 }
 
 .gallery a{
