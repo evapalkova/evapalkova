@@ -1,5 +1,9 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Oswald:500');
+@import url('https://fonts.googleapis.com/css?family=Exo');
 
 /*
 	Phantom by HTML5 UP
@@ -16,7 +20,9 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-		 font-family:Courier new, sans-serif;
+		font-family: 'Oswald', sans-serif;
+		text-decoration: none;
+		color: black;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -51,6 +57,11 @@
 
 /* Gallery styles
 ===========================*/
+.page_content {
+    margin: 0 auto 0 auto;
+    width: 80%;
+}
+
 .page_content .gallery{
 	padding-top:1%;
 }
@@ -68,10 +79,12 @@
     display: block;
 }
 
-.page_content p{
+.page_content p, i{
 	text-align: justify;
 	font-size:0.8em;
+	font-family: 'Exo', sans-serif;
 }
+
 
 
 	@media screen and (max-width: 500px) {
@@ -1656,6 +1669,7 @@ width:70%
 
 	body {
 		-ms-overflow-style: scrollbar;
+		border: solid 30px white;
 	}
 
 	@media screen and (max-width: 480px) {
@@ -1735,11 +1749,12 @@ width:70%
 	}
 
 	h1 {
-		font-size: 1.5em;
-		font-weight: 700;
-		line-height: 1.3;
-		margin: 0 0 1em 0;
-		letter-spacing: -0.035em;
+	font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 1em 0;
+	
+    letter-spacing: 0.135em;
 	}
 
 		h1 a {
@@ -1768,7 +1783,8 @@ width:70%
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
-		letter-spacing: 0.35em;
+		letter-spacing: 0.135em;
+		color:white;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2772,6 +2788,7 @@ width:70%
 
 					.tiles article > a .content > :last-child {
 						margin-bottom: 0;
+						color: white;
 					}
 
 			.tiles article.style1 > .image:before {
@@ -2779,7 +2796,7 @@ width:70%
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #cccccc;
+				background-color: darkorange;
 			}
 
 			.tiles article.style3 > .image:before {
@@ -2898,7 +2915,9 @@ width:70%
 /* Header */
 
 	#header {
-		padding: 5em 0 0.1em 0 ;
+	padding: 1em 30em 0;
+	padding-bottom: 2em;
+	padding-left: 1px;
 	}
 
 		#header .logo {
@@ -2907,6 +2926,9 @@ width:70%
 			color: inherit;
 			font-weight: 900;
 			letter-spacing: 0.35em;
+			
+			font-size: 0.8em;
+			
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
 			text-transform: uppercase;
@@ -2932,8 +2954,10 @@ width:70%
 			position: fixed;
 			right: 2em;
 			top: 2em;
-			z-index: 10000;
+			z-index: 1000;
+
 		}
+		
 
 			#header nav ul {
 				display: -moz-flex;
@@ -3059,10 +3083,13 @@ width:70%
 		-webkit-overflow-scrolling: touch;
 		background: #585858;
 		color: #ffffff;
+		
 		cursor: default;
 		visibility: hidden;
 		z-index: 10002;
 	}
+	
+
 
 		#menu > .inner {
 			-moz-transition: opacity 0.45s ease;
@@ -3096,7 +3123,8 @@ width:70%
 						padding: 1em 0;
 						line-height: 1.5;
 						border: 0;
-						color: inherit;
+						/*color: inherit;*/
+								color: white;
 					}
 
 					#menu > .inner > ul > li:first-child {
@@ -3247,7 +3275,7 @@ width:70%
 
 	#footer {
 		padding: 1em 0 1em 0 ;
-		background-color: #f6f6f6;
+		/* background-color: #f6f6f6;*/
 	}
 
 		#footer > .inner {
@@ -3290,7 +3318,7 @@ width:70%
 				
 				list-style: none;
 				font-size: 0.8em;
-				color: rgba(88, 88, 88, 0.5);
+				/*color: rgba(88, 88, 88, 0.5);*/
 			}
 
 				#footer > .inner .copyright a {

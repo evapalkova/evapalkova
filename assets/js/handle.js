@@ -17,6 +17,7 @@ $(document).ready(function() {
 		helpers	: {
 			   overlay: {
 				locked: false
+				
 				}
 		},
 		padding:"0"
