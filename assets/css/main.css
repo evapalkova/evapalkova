@@ -1809,7 +1809,9 @@ width:70%
 
 	h6 {
 		font-size: 0.8em;
+
 	}
+
 
 	@media screen and (max-width: 980px) {
 
@@ -1904,6 +1906,11 @@ width:70%
 
 	header p {
 		margin-top: -1em;
+	}
+	
+.projectName{
+		font-size: 0.8em;
+		color:black;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -2796,7 +2803,9 @@ width:70%
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: darkorange;
+
+				background-color: #333333;
+				opacity: 0.38;
 			}
 
 			.tiles article.style3 > .image:before {
@@ -2814,7 +2823,9 @@ width:70%
 			.tiles article.style6 > .image:before {
 				background-color: #8499e7;
 			}
-
+.tiles article:hover > .projectName {
+	text-decoration:underline;
+}
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.03);
 				-webkit-transform: scale(1.03);
@@ -2824,7 +2835,7 @@ width:70%
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
-					opacity: 0.35;
+					opacity: 0;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
@@ -2946,8 +2957,8 @@ width:70%
 
 				#header .logo .symbol img {
 					display: block;
-					width: 2em;
-					height: 2em;
+					width: 1.5em;
+					height: 1.5em;
 				}
 
 		#header nav {
