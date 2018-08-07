@@ -22,7 +22,7 @@
 		vertical-align: baseline;
 		font-family: 'Oswald', sans-serif;
 		text-decoration: none;
-		color: black;
+		color: #000066;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -79,7 +79,7 @@
     display: block;
 }
 
-.page_content p, i{
+.page_content p, i, .basicList{
 	text-align: justify;
 	font-size:0.8em;
 	font-family: 'Exo', sans-serif;
@@ -1910,7 +1910,7 @@ width:70%
 	
 .projectName{
 		font-size: 0.8em;
-		    color: #414141;
+
     font-weight: 100;
 	}
 
