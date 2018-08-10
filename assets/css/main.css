@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Oswald:500');
 @import url('https://fonts.googleapis.com/css?family=Exo');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 /*
 	Phantom by HTML5 UP
@@ -20,7 +21,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-		font-family: 'Oswald', sans-serif;
+		font-family: 'Inconsolata', sans-serif;
 		text-decoration: none;
 		color: #000066;
 	}
@@ -82,7 +83,7 @@
 .page_content p, i, .basicList{
 	text-align: justify;
 	font-size:0.8em;
-	font-family: 'Exo', sans-serif;
+	font-family: 'Inconsolata', sans-serif;
 }
 
 
@@ -1699,7 +1700,7 @@ width:70%
 
 	body, input, select, textarea {
 		color: #585858;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Inconsolata", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
