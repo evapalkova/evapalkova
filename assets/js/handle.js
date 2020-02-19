@@ -1,8 +1,7 @@
 
 $(document).ready(function() {
 	
-	//fancybox handler	
-		$(".fancybox").fancybox();
+
 	/* Apply fancybox to multiple items */
 	
 	$(".fancybox").fancybox({
@@ -14,10 +13,10 @@ $(document).ready(function() {
 		closeEffect	: 'none',
 		prevEffect		: 'none',
 		nextEffect		: 'none',
+		preload	: false,
 		helpers	: {
 			   overlay: {
 				locked: false
-				
 				}
 		},
 		padding:"0"
