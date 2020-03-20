@@ -58,6 +58,13 @@
 
 /* Gallery styles
 ===========================*/
+.photos-span{
+	text-align: justify;
+    font-size: 0.6em;
+	font-family: 'Inconsolata', sans-serif;
+	font-style: italic;
+}
+
 .page_content {
     margin: 0 auto 0 auto;
     width: 80%;
@@ -101,6 +108,11 @@ width:80%
 }
 	
 @media only screen and (min-width: 1280px) and (max-width:1680px){
+	.page_content .gallery img{
+width:70%
+}
+}
+@media only screen and (min-width: 1680px){
 	.page_content .gallery img{
 width:70%
 }
@@ -2807,7 +2819,7 @@ width:70%
 			.tiles article.style2 > .image:before {
 
 				background-color: #333333;
-				opacity: 0.38;
+				opacity: 0.15;
 			}
 
 			.tiles article.style3 > .image:before {
