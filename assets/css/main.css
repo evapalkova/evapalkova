@@ -70,6 +70,12 @@
     width: 80%;
 }
 
+@media screen and (max-width: 736px){
+	.page_content {
+		width: 100%;
+	}
+}
+
 .page_content .gallery{
 	padding-top:1%;
 }
@@ -3462,7 +3468,7 @@ width:70%
 		@media screen and (max-width: 736px) {
 
 			#wrapper > * > .inner {
-				padding: 0 1.25em;
+				padding: 0 0em;
 			}
 
 		}
